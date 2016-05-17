@@ -87,15 +87,15 @@ function initMap() {
   window.map = new google.maps.Map(document.getElementById('map'));
 
   icons.gas = {
-    url:'/img/gas.png',
+    url:'/ak-schetskaart/img/gas.png',
     scaledSize: new google.maps.Size(50, 50)
   }
   icons.windmill = {
-    url: '/img/windmill.png',
+    url: '/ak-schetskaart/img/windmill.png',
     scaledSize: new google.maps.Size(50,50)
   }
   icons.solarPanel = {
-    url: '/img/solar panel.png',
+    url: '/ak-schetskaart/img/solar panel.png',
     scaledSize: new google.maps.Size(50,50)
   }
 
