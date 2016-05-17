@@ -14,6 +14,19 @@ function addMarker (position, icon) {
   }));
 }
 
+function smoothZoom (map, max, cnt) {
+  if (cnt >= max) {
+    return;
+  }
+  else {
+    z = google.maps.event.addListener(map, 'zoom_changed', function(event) {
+      google.maps.event.removeListener(z);
+      smoothZoom(map, max, cnt + 1);
+    });
+    setTimeout(function(){map.setZoom(cnt)}, 80); // 80ms is what I found to work well on my system -- it might not work well on all systems
+  }
+}
+
 var thingsToDo = [
   function () {
     el.header.text('Hoi,');
@@ -42,7 +55,8 @@ var thingsToDo = [
                 +'plaatsen');
     map.setCenter({lat: 52.1356625, lng: 4.8959632});
     map.setMapTypeId(google.maps.MapTypeId.SATELLITE);
-    map.setZoom(15);
+    // map.setZoom(15);
+    smoothZoom(map,15,map.getZoom());
   },
   function () {
     el.header.text('Oplossing');
