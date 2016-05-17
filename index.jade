@@ -6,11 +6,22 @@ html
     script(src="/script.js")
   body
     .top
-      #map
-      .explanation-container
-        .explanation.card-2
-          header
-          p
+        .legenda-container
+          .legenda.card-5
+            .item
+              img(src='/img/gas.png')
+              .text windmolen
+            .item
+              img(src='/img/solar panel.png')
+              .text zonnen panel
+            .item
+              img(src='/img/windmill.png')
+              .text windmolen
+        #map
+        .explanation-container
+          .explanation.card-5
+            header
+            p
     .bottom.card-5
       .text Druk op spatie om verder te gaan.
       .controls
