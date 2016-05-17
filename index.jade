@@ -1,0 +1,20 @@
+html
+  head
+    link(rel="stylesheet", href="style.css")
+    link(rel="stylesheet", href="/font-awesome-4.6.3/css/font-awesome.min.css")
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js")
+    script(src="/script.js")
+  body
+    .top
+      #map
+      .explanation-container
+        .explanation.card-2
+          header
+          p
+    .bottom.card-5
+      .text Druk op spatie om verder te gaan.
+      .controls
+        i.fa.fa-arrow-left(aria-hidden="true")
+        i.fa.fa-arrow-right(aria-hidden="true")
+    
+  script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfrqO5t6cNPGEfIoHTOuPupt6cKp8yPww&callback=initMap", async, defer)
