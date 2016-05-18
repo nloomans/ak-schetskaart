@@ -40,7 +40,7 @@ var thingsToDo = [
   },
   function () {
     el.header.text('Overheid');
-    el.text.text('De overheid probeerd het beter te maken door hier windmolens te plaatsen,'
+    el.text.text('De overheid probeerd het beter te maken door hier windmolens te plaatsen, '
                  +'maar wij denken dat het beter kan.');
     addMarker({lat: 53.23, lng: 6.57}, icons.gas);
     addMarker({lat: 52.75, lng: 5}, icons.windmill);
@@ -50,9 +50,9 @@ var thingsToDo = [
   },
   function () {
     el.header.text('Oplossing');
-    el.text.text('Zo zijn er heel veel plantages in nederland. De overheid kan wat van'
-                +'dit land kopen om dat een heel groot veld gevult met zonnen panelen'
-                +'plaatsen');
+    el.text.text('Zo zijn er heel veel plantages in nederland. De overheid kan wat van '
+                +'dit land kopen om dat een heel groot veld gevult met zonnepanelen '
+                +'plaatsen.');
     map.setCenter({lat: 52.1356625, lng: 4.8959632});
     map.setMapTypeId(google.maps.MapTypeId.SATELLITE);
     // map.setZoom(15);
@@ -60,9 +60,9 @@ var thingsToDo = [
   },
   function () {
     el.header.text('Oplossing');
-    el.text.html('Verder kunnen we verplicht zonnen panelen zetten op groten'
+    el.text.html('Verder kunnen we verplicht zonnen panelen zetten op groten '
                  +'gebouwen in de volgende steden.<br><br>'
-                 +'We hebben de grootste steden gekozen omdat daar ook de grootste'
+                 +'We hebben de grootste steden gekozen omdat daar ook de grootste '
                  +'gebouwen zijn en we dus ook het meesten er uit krijgen.');
     addMarker({lat: 53.23, lng: 6.57}, icons.gas);
     addMarker({lat: 52.75, lng: 5}, icons.windmill);
