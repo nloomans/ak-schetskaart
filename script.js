@@ -60,7 +60,7 @@ var thingsToDo = [
   },
   function () {
     el.header.text('Oplossing');
-    el.text.html('Verder kunnen we verplicht zonnen panelen zetten op groten '
+    el.text.html('Verder kunnen we verplicht zonnepanelen zetten op grote '
                  +'gebouwen in de volgende steden.<br><br>'
                  +'We hebben de grootste steden gekozen omdat daar ook de grootste '
                  +'gebouwen zijn en we dus ook het meesten er uit krijgen.');
