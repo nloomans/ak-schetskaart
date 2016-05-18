@@ -131,4 +131,6 @@ $(document).keydown(function (evt) {
 $(document).ready(function () {
   el.header = $('header');
   el.text = $('p');
+  $('i.fa.fa-arrow-left').click(back);
+  $('i.fa.fa-arrow-right').click(next);
 });
