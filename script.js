@@ -36,13 +36,13 @@ var thingsToDo = [
     el.header.text('Het probleem');
     el.text.html('Europa maakt gemiddeld <b>25%</b> hernieuwbare energie en <b>24%</b> '+
     'Aardgas, maar nederland heeft <b>11%</b> Hernieuwbaar en <b>63%</b> aardgas. Dit kan beter.');
-    addMarker({lat: 53, lng: 6}, icons.gas);
+    addMarker({lat: 53.23, lng: 6.57}, icons.gas);
   },
   function () {
     el.header.text('Overheid');
     el.text.text('De overheid probeerd het beter te maken door hier windmolens te plaatsen,'
                  +'maar wij denken dat het beter kan.');
-    addMarker({lat: 53, lng: 6}, icons.gas);
+    addMarker({lat: 53.23, lng: 6.57}, icons.gas);
     addMarker({lat: 52.75, lng: 5}, icons.windmill);
     addMarker({lat: 52.4, lng: 5.5}, icons.windmill);
     addMarker({lat: 51.96, lng: 4.2}, icons.windmill);
@@ -64,7 +64,7 @@ var thingsToDo = [
                  +'gebouwen in de volgende steden.<br><br>'
                  +'We hebben de grootste steden gekozen omdat daar ook de grootste'
                  +'gebouwen zijn en we dus ook het meesten er uit krijgen.');
-    addMarker({lat: 53, lng: 6}, icons.gas);
+    addMarker({lat: 53.23, lng: 6.57}, icons.gas);
     addMarker({lat: 52.75, lng: 5}, icons.windmill);
     addMarker({lat: 52.4, lng: 5.5}, icons.windmill);
     addMarker({lat: 51.96, lng: 4.2}, icons.windmill);
